@@ -54,6 +54,8 @@ The quality of the property has a significant impact on the average home sale pr
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jqp-initial-data-exploration`.
 │
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+│
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
 │
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
