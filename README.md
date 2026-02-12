@@ -5,7 +5,15 @@
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
 </a>
 
-This is a final project for one of my graduate courses. For the final project, I wanted to create a model that can accurately predict a given property value. As an investor, it is crucial to have tools to analyze and detect undervalued real estate properties. A model that can predict a home's value can assist in ROI calculations for undervalued homes, aiding in the decision-making process. Such a model will improve the due diligence process of property assessment and mitigate the risks of tying up capital in homes with low ROI.
+## Introduction
+As an investor, it is crucial to have tools to analyze and detect undervalued real estate properties. A model that can predict a home's value can assist in ROI calculations for undervalued homes, aiding in the decision-making process. Such a model will improve the due diligence process of property assessment and mitigate the risks of tying up capital in homes with low ROI.
+
+In addition, it is profoundly insightful to utilize modeling techniques to understand the features that are drivers of a property's value. Every market or area is different, and for a property rehabilitation investor, such knowledge is crucial. It will allow for efficient resource allocation to the features that will increase the value of the home the most. For example, if central air conditioning is found to be a significant feature in a home's valuation, it might be wise to consider adding this to an investment property that does not contain it.
+This project will be centralized on the following two research questions
+Research question 1: What features are most important to a property's valuation?
+
+Research question 2: How accurately can a property's price be predicted?
+
 
 ## Project Organization
 
