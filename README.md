@@ -10,6 +10,7 @@ As an investor, it is crucial to have tools to analyze and detect undervalued re
 
 In addition, it is profoundly insightful to utilize modeling techniques to understand the features that are drivers of a property's value. Every market or area is different, and for a property rehabilitation investor, such knowledge is crucial. It will allow for efficient resource allocation to the features that will increase the value of the home the most. For example, if central air conditioning is found to be a significant feature in a home's valuation, it might be wise to consider adding this to an investment property that does not contain it.
 This project will be centralized on the following two research questions
+
 Research question 1: What features are most important to a property's valuation?
 
 Research question 2: How accurately can a property's price be predicted?
@@ -47,6 +48,14 @@ Research question 2: How accurately can a property's price be predicted?
 │
 └── setup.cfg          <- Configuration file for flake8
 ```
+## Reproducibility 
+1.	Create a virtual environment
+2.	Download the project dependencies via the requirements.txt file in this repository
+3.	Download the Ames Iowa Housing Data - https://github.com/topepo/AmesHousing
+4.	Place the data in a repository that can be referenced by jupyter notebook.
+5.	Download the notebook 
+6.	Open the notebook and change the “pd.read_csv()” to read the data from your designated repository
+7.	Run the remainder of the code
 
 --------
 
