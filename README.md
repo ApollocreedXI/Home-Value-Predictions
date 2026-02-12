@@ -18,6 +18,15 @@ Research question 2: How accurately can a property's price be predicted?
 ## Main methods used
 Pandas was utilized for data preprocessing, cleaning, and transformation. This preprocessed data was later utilized for exploratory data analysis (EDA). This allowed for visualization of data anomalies that would adversely affect modeling, and to take any appropriate action (e.g., mean imputation, drop record). During the EDA, the rich categorical data was utilized for data profiling, such as gathering insights into the median sales prices by neighborhoods. After EDA, the data was modeled using a regularized linear model to produce a sparse output of the most important features for sale price prediction, along with a trained model to predict home sales price.
 
+## Summary of findings
+The performance metrics of the project model demonstrated strong accuracy in predicting a home's value. 
+
+The trained model on the dataset reveals that the overall quality and the ground living area of a home are significant predictors of a home's value. This makes intuitive sense as homes with larger living spaces and of higher quality will end up costing more.
+The model reveals that the location of a home impacts the value of the home. In our exploratory analysis, we found that different neighborhood median home sale values can vary significantly.  The lasso regression does support these findings in our initial exploratory analysis.
+
+The regression model reports that homes in certain neighborhoods reduce the value of a home. This could raise ethical concerns if one uses these features to guide them into selecting which neighborhoods to invest in and which ones to avoid. From a long-run utilitarian perspective, we would find that an investor's utilization of the model will not maximize the general public utility. Investors will allocate resources to invest in those areas where the model predicts overall high values. This will improve the homes of those who already live in better neighborhoods while neglecting the homes of other neighborhoods. The outcome of this is very dire and is similar to that of redlining. A proposed solution is to constrain the model somehow so that it cannot produce negative coefficients for neighborhood features. This solution allows an investor to understand which areas typically have a home of higher value, while not directly deterring an investor from neighborhoods that could potentially have negative regression coefficients.
+
+
 ## Other Key findings 
 <img width="2076" height="1326" alt="image" src="https://github.com/user-attachments/assets/e8ef988f-b247-4078-9f0e-c95d662c2816" />
 
