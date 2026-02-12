@@ -16,7 +16,7 @@ Research question 1: What features are most important to a property's valuation?
 Research question 2: How accurately can a property's price be predicted?
 
 ## Main methods used
-Pandas was utilized for data preprocessing, cleaning, and transformation. This preprocessed data was later utilized for exploratory data analysis (EDA). This allowed for visualization of data anomalies that would adversely affect modeling, and to take any appropriate action (e.g., mean imputation, drop record). During the EDA, the rich categorical data was utilized for data profiling, such as gathering insights into the median sales prices by neighborhoods. After EDA, the data were modeled using a regularized linear model to produce a sparse output of the most important features for sale price prediction, along with a trained model to predict home sales price.
+Pandas was utilized for data preprocessing, cleaning, and transformation. This preprocessed data was later utilized for exploratory data analysis (EDA). This allowed for visualization of data anomalies that would adversely affect modeling, and to take any appropriate action (e.g., mean imputation, drop record). During the EDA, the rich categorical data was utilized for data profiling, such as gathering insights into the median sales prices by neighborhoods. After EDA, the data was modeled using a regularized linear model to produce a sparse output of the most important features for sale price prediction, along with a trained model to predict home sales price.
 
 ## Other Key findings 
 <img width="2076" height="1326" alt="image" src="https://github.com/user-attachments/assets/e8ef988f-b247-4078-9f0e-c95d662c2816" />
