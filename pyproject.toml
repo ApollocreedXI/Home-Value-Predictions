@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "home_value_prediction"
+version = "0.0.1"
+description = "This is a final project for one of my graduate courses. For the final project, I wanted to create a model that can accurately predict a given property value. As an investor, it is crucial to have tools to analyze and detect undervalued real estate properties. A model that can predict a home's value can assist in ROI calculations for undervalued homes, aiding in the decision-making process. Such a model will improve the due diligence process of property assessment and mitigate the risks of tying up capital in homes with low ROI."
+authors = [
+  { name = "Roydan Cruz" },
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License"
+]
+requires-python = "~=3.10.0"
+
+
+[tool.ruff]
+line-length = 99
+src = ["home_value_prediction"]
+include = ["pyproject.toml", "home_value_prediction/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["home_value_prediction"]
+force-sort-within-sections = true
+
