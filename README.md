@@ -1,4 +1,4 @@
-# Home_Value_Prediction
+# Home Value Prediction
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/eb7efed7-85c9-41da-8a71-f87dc1231525" />
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
@@ -14,6 +14,19 @@ This project will be centralized on the following two research questions
 Research question 1: What features are most important to a property's valuation?
 
 Research question 2: How accurately can a property's price be predicted?
+
+## Main methods used
+Pandas was utilized for data preprocessing, cleaning, and transformation. This preprocessed data was later utilized for exploratory data analysis (EDA). This allowed for visualization of data anomalies that would adversely affect modeling, and to take any appropriate action (e.g., mean imputation, drop record). During the EDA, the rich categorical data was utilized for data profiling, such as gathering insights into the median sales prices by neighborhoods. After EDA, the data were modeled using a regularized linear model to produce a sparse output of the most important features for sale price prediction, along with a trained model to predict home sales price.
+
+## Other Key findings 
+<img width="2076" height="1326" alt="image" src="https://github.com/user-attachments/assets/e8ef988f-b247-4078-9f0e-c95d662c2816" />
+
+The boxplot reveals that there is significant variation in the neighborhood sale prices given by the IQR of the box plots. For example, the 'Nridght' neighborhood whiskers span from 150,000 to what appears to be 550,000. The center 50% of the data is contained between 250,000 to 375,000. Other neighborhoods such as 'Gilbert' have very narrow variation in price. 
+
+<img width="1244" height="836" alt="image" src="https://github.com/user-attachments/assets/df8e8b11-191b-444b-96f5-f07d1adde967" />
+
+The quality of the property has a significant impact on the average home sale price. The ground living area has a great linear relationship with the sales price with very few points of high leverage (unusual in terms of's). The sales price of a home seems to be very sensitive to increases in lot area. 
+
 
 
 ## Project Organization
