@@ -1,4 +1,5 @@
 # Home_Value_Prediction
+<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/eb7efed7-85c9-41da-8a71-f87dc1231525" />
 
 <a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
     <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
